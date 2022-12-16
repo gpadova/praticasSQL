@@ -9,4 +9,4 @@ FROM jobs
 FROM experiences
     ON companies.id = experiences.id
 WHERE 
-    experiences."endDate" IS NULL
+    experiences."endDate" IS NULL AND user.id = 50;
